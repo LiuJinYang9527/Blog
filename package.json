@@ -13,5 +13,8 @@
   "devDependencies": {
     "element-ui": "^2.4.11",
     "vuepress": "^0.14.8"
+  },
+  "resolutions":{
+    "webpack-dev-middleware":"3.6.0"
   }
 }

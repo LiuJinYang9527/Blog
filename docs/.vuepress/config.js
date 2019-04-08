@@ -1,18 +1,55 @@
 module.exports = {
-  title: "Hello VuePress",
-  description: "Just playing around",
+  title: "Melon",
+  description: "Personal Blog",
   base:'/test/',
   markdown: {
     lineNumbers: true
   },
+  //打包输出目录
   dest:"public",
   themeConfig: {
     // 为以下路由添加侧边栏
-    sidebar: {
-      "/": ["/", "one", "two"],
-      "/foo/": ["one"],
-      "/bar/": ["one"]
+    sidebar:{
+      '/VuePress/':[''],
+      '/TypeScript/':[''],
+      '/Koa2/':[''],
+      '/DVA/':[''],
+      '/ReactHooks/':[''],
+      '/ReactRedux/':[''],
+      '/UMI/':[''],
+      '/Flutter/':[''],
+      '/':[''],
     },
+    //导航
+    nav:[
+      {
+        text:'首页',link:'/'
+      },
+      {
+        text:'VuePress',link:'/VuePress/'
+      },
+      {
+        text:'TypeScript',link:'/TypeScript/'
+      },
+      {
+        text:'Koa2',link:'/Koa2/'
+      },
+      {
+        text:'DVA',link:'/DVA/'
+      },
+      {
+        text:'ReactHooks',link:'/ReactHooks/'
+      },
+      {
+        text:'ReactRedux',link:'/ReactRedux/'
+      },
+      {
+        text:'UMI',link:'/UMI/'
+      },
+      {
+        text:'Flutter',link:'/Flutter/'
+      }
+    ],
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
     repo: "https://github.com/b779542115/test",
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
@@ -28,6 +65,6 @@ module.exports = {
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"
-    editLinkText: "帮助我们改善此页面！"
+    editLinkText: "帮助我们改善此页面！",
   }
 };
