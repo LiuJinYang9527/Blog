@@ -1,7 +1,7 @@
 module.exports = {
   title: "Melon",
   description: "Personal Blog",
-  base:'/test/',
+  base:'/Blog/',
   markdown: {
     lineNumbers: true
   },
