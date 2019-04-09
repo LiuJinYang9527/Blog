@@ -17,7 +17,7 @@ git add -A
 git commit -m '更新'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://${access_token}@github.com/<LiuJinYang9527>/<LiuJinYang9527>.github.io.git master
+git push -f https://cc471e068e0204973482bbd5764ac83852e0d1bc@github.com/<LiuJinYang9527>/<LiuJinYang9527>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<LiuJinYang9527>/<Blog>.git master:gh-pages
