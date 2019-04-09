@@ -6,7 +6,7 @@ module.exports = {
     lineNumbers: true
   },
   //打包输出目录
-  dest:"public",
+  dest:"dist",
   themeConfig: {
     // 为以下路由添加侧边栏
     sidebar:{
