@@ -23,7 +23,7 @@ git commit -m '更新'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 如果使用 travis 持续集成
-git push -f https://${access_token}@github.com/<USERNAME>/<REPO>.git master:gh-pages
+git push -f https://${access_token}@github.com/LiuJinYang9527/Blog.git master:gh-pages
 
 
 cd -
