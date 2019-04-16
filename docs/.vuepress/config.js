@@ -10,6 +10,7 @@ module.exports = {
   themeConfig: {
     // 为以下路由添加侧边栏
     sidebar:{
+      '/JsTricks/':[''],
       '/VuePress/':[''],
       '/TypeScript/':[''],
       '/Koa2/':[''],
@@ -48,6 +49,9 @@ module.exports = {
       },
       {
         text:'Flutter',link:'/Flutter/'
+      },
+      {
+        text:'JsTricks',link:'/JsTricks/'
       }
     ],
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
