@@ -1,3 +1,7 @@
+const langs = [
+  { text: 'English', link: '/' },
+  { text: '简体中文', link: '/zh/' },
+]
 module.exports = {
 	title: 'Melon',
 	description: 'Personal Blog',
@@ -16,7 +20,6 @@ module.exports = {
 			'/ReactRedux/': [ '' ],
 			'/UMI/': [ '' ],
 			'/Flutter/': [ '' ],
-			'/': [ '' ]
 		},
 		//导航
 		nav: [
