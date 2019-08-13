@@ -9,7 +9,7 @@ module.exports = {
 	//打包输出目录
 	dest: 'dist',
 	themeConfig: {
-		// 为以下路由添加侧边栏
+		// 为以下路由添加侧边栏	
 		sidebar: {
 			'/JsTricks/': [ '' ],
 			'/VuePress/': [ '' ],
@@ -100,5 +100,10 @@ module.exports = {
 		editLinks: true,
 		// 默认为 "Edit this page"
 		editLinkText: '帮助我们改善此页面！'
-	}
+	},
+	plugins:[
+		"vuepress-plugin-cat",
+		'@vuepress/active-header-links',
+		'@vuepress/nprogress'
+	]
 };
