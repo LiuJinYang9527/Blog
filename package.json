@@ -14,14 +14,14 @@
     "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
     "@vuepress/plugin-nprogress": "^1.0.0-rc.1",
-    "element-ui": "^2.4.11",
-    "vuepress": "^0.14.8"
+    "element-ui": "^2.4.11"
   },
   "resolutions": {
     "webpack-dev-middleware": "3.6.0"
   },
   "dependencies": {
     "gitalk": "^1.5.0",
+    "vuepress": "^1.1.0",
     "vuepress-plugin-cat": "^1.0.2"
   }
 }

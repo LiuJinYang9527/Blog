@@ -1,6 +1,6 @@
 const langs = [
-  { text: 'English', link: '/' },
-  { text: '简体中文', link: '/zh/' },
+	{ text: 'English', link: '/' },
+	{ text: '简体中文', link: '/zh/' },
 ]
 module.exports = {
 	title: 'Melon',
@@ -11,15 +11,15 @@ module.exports = {
 	themeConfig: {
 		// 为以下路由添加侧边栏	
 		sidebar: {
-			'/JsTricks/': [ '' ],
-			'/VuePress/': [ '' ],
-			'/TypeScript/': [ '' ],
-			'/Koa2/': [ '' ],
-			'/DVA/': [ '' ],
-			'/ReactHooks/': [ '' ],
-			'/ReactRedux/': [ '' ],
-			'/UMI/': [ '' ],
-			'/Flutter/': [ '' ],
+			'/JsTricks/': [''],
+			'/VuePress/': [''],
+			'/TypeScript/': [''],
+			'/Koa2/': [''],
+			'/DVA/': [''],
+			'/ReactHooks/': [''],
+			'/ReactRedux/': [''],
+			'/UMI/': [''],
+			'/Flutter/': [''],
 		},
 		//导航
 		nav: [
@@ -57,6 +57,10 @@ module.exports = {
 				text: 'Node相关',
 				items: [
 					{
+						text: 'mySql',
+						link: '/mySql/'
+					},
+					{
 						text: 'Koa2',
 						link: '/Koa2/'
 					}
@@ -71,16 +75,16 @@ module.exports = {
 				link: '/Flutter/'
 			},
 			{
-        text: 'tricks',
+				text: 'tricks',
 				items: [
 					{
 						text: 'JsTricks',
-            link: '/JsTricks/'
-          },
-          {
-            text:'CssTricks',
-            link:'/CssTricks/'
-          }
+						link: '/JsTricks/'
+					},
+					{
+						text: 'CssTricks',
+						link: '/CssTricks/'
+					}
 				]
 			}
 		],
@@ -101,7 +105,7 @@ module.exports = {
 		// 默认为 "Edit this page"
 		editLinkText: '帮助我们改善此页面！'
 	},
-	plugins:[
+	plugins: [
 		"vuepress-plugin-cat",
 		'@vuepress/active-header-links',
 		'@vuepress/nprogress'
